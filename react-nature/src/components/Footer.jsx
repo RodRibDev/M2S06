@@ -11,7 +11,7 @@ function Footer() {
             <img src="https://www.origamid.com/projetos/bikcraft/img/bikcraft.svg" />
             </div>
             <div className="contato">
-                <h3>CONTATO</h3>
+                <h2>CONTATO</h2>
                 <p>+55 21 9999-9999 <br />
                 contato@bikcraft.com <br />
                 Rua Ali Perto, 42 - Botafogo <br />
@@ -30,7 +30,7 @@ function Footer() {
                 </div>
             </div>
             <div className="info">
-                <h3>INFORMAÇÕES</h3>
+                <h2>INFORMAÇÕES</h2>
                 <ul>
                     <li>Bicicletas</li>
                     <li>Seguros</li>
@@ -38,13 +38,9 @@ function Footer() {
                     <li>Termos e Condições</li>
                 </ul>
             </div>
-
-
-
         </div>
-        <div>
-            <p>Bikcraft © Alguns direitos reservados.</p>
-        </div></>
+            <p className="footer-end">Bikcraft © Alguns direitos reservados.</p>
+        </>
     )
 }
 

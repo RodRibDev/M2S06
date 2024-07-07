@@ -7,7 +7,7 @@
 .contato {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #9c9c9c;
     align-items: flex-start;
 
 }
@@ -17,7 +17,7 @@ p {
 .info {
     display: flex;
     flex-direction: column;
-    color: white;
+    color: #9c9c9c;
     align-items: flex-start;
     
 }
@@ -32,4 +32,13 @@ ul {
 .footer-redes {
     display: flex;
     gap: 40px;
+}
+.footer-end {
+    background-color: black;
+    color: #9c9c9c;
+    margin: 0;
+    padding: 30px;
+}
+h2 {
+    color: white;
 }
