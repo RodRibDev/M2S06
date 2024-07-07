@@ -21,7 +21,7 @@ function App() {
   ]
 
   return (
-    <>
+    <div className="container">
       <Header></Header>      
 
       {bicicletas.map(bike =>
@@ -33,7 +33,7 @@ function App() {
       )}
 
       <Footer></Footer>      
-    </>
+    </div>
   )
 }
 
