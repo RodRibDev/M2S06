@@ -3,6 +3,7 @@
     background-color: black;
     padding: 60px;
     justify-content: space-between;
+    width: 100vw;
 }
 .contato {
     display: flex;
@@ -34,6 +35,7 @@ ul {
     gap: 40px;
 }
 .footer-end {
+    width: 100vw;
     background-color: black;
     color: #9c9c9c;
     margin: 0;
