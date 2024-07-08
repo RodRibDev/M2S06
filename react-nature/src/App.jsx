@@ -2,6 +2,7 @@ import './App.css'
 import Footer from './components/Footer'
 import Header from './components/Header'
 import CardBicicleta from './components/CardBicicleta'
+import Contato from './components/Contato'
 
 function App() {
 
@@ -22,7 +23,9 @@ function App() {
 
   return (
     <div className="container">
-      <Header></Header>      
+      <Header></Header>  
+
+      <div className="bikes">    
 
       {bicicletas.map(bike =>
         <CardBicicleta 
@@ -31,6 +34,10 @@ function App() {
           preco={bike.preco} 
           nomeModelo={bike.nomeModelo}/>
       )}
+
+      </div>
+
+      <Contato></Contato>
 
       <Footer></Footer>      
     </div>
